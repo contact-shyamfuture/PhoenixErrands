@@ -1,0 +1,6 @@
+framework module Pods_Phoenix_Errands {
+  umbrella header "Pods-Phoenix Errands-umbrella.h"
+
+  export *
+  module * { export * }
+}

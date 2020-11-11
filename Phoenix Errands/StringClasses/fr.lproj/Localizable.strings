@@ -1,0 +1,82 @@
+/* 
+  Localizable.strings
+  Phoenix Errands
+
+  Created by Raghav Beriwala on 19/08/19.
+  Copyright © 2019 Shyam Future Tech. All rights reserved.
+*/
+"Create an account" = "Creer un compte";
+"You want to delete?" = "Vous souhaitez supprimer?";
+"Registration with an email" = "Inscription avec un email";
+"Register or log in to discover the services offered" = "Inscrivez-vous ou connectez-vous pour découvrir les services offerts";
+"First name" = "Prenom";
+"Name" = "Nom";
+"Email" = "Email";
+"Password" = "Mot de passe";
+"Log in" = "Me connecter";
+"Forgot your password" = "Mot de passe oublie";
+
+"House" = "Maison";
+"Garden & Outside" = "Jardin & Exterieur";
+"Home help" = "Aide a domicile";
+"Transport & Moving" = "Transport & Demenagement";
+"Body care" = "Soins du corps";
+"Repair of Vehicles" = "Reparation de Vehicules";
+"Courses & Tips" = "Cours & Conseils";
+"Contacts" = "Contacts";
+"Home" = "Accueil";
+"Activity" = "Activity";
+"Apply" = "Postuler";
+"Me" = "Moi";
+
+"Language" = "La langue";
+"New" = "Nouvelle";
+"Varifications" = "Varifications";
+"Status" = "Statut";
+"Particular" = "Particulière";
+"My activity" = "Mon activité";
+"Missions carried out" = "Missions effectuées";
+"Services provided" = "Services fournis";
+"Sold items" = "Articles vendus";
+"My statistics" = "Mes statistiques";
+"Response time" = "Temps de réponse";
+"My profile" = "Mon profil";
+"Add my services" = "Ajouter mes services";
+
+"My Bids" = "Mes offres";
+
+"Choose Your Service" = "Choisissez votre service";
+"Try" = "Essayer";
+"My skills" = "Mes compétences";
+"Complete your information to apply for mission" = "Complétez vos informations pour postuler à la mission";
+"You published requests and those where you applied will appear here" = "Vos demandes publiées et celles pour lesquelles vous avez postulé apparaîtront ici";
+"Ask for a service" = "Demander un service";
+"Peoposer my service" = "Peoposer mon service";
+"Phoenix of the moment" = "Phoenix du moment";
+"Discover" = "Découvrir";
+"You do not have any contacts yet. In the meantime, find out the current stooters." = "Vous n'avez pas encore de contacts. En attendant, trouvez les botteurs actuels.";
+
+"You do not have a payment method" = "vous n'avez pas de moyen de paiement enregistre";
+"Means of payment" = "Moyens de paiement";
+"You can add a map to book a provider faster" = "Vous pouvez ajouter une carte pour reserver un prestataire plus rapidement";
+"Add a map" = "Ajouter une carte";
+//---------
+"Help & Assistance" = "Aide & Assistanc";
+"chat with Phoenix" = "chatter avec Phoenix";
+"Send an email to Phoenix" = "Envoyer un mail a Phoenix";
+"Access the FAQ" = "Acceder a la FAQ";
+"Cancel" = "Annuler";
+"settings" = "parametres";
+"My account" = "Mon compte";
+"change my password" = "Changer mon mot de passe";
+"Disconnect" = "Me deconnecter";
+"Delete my account" = "Supprimer mon compte";
+"Current Password" = "mot de  passe actuel";
+"New Password" = "Nouveau mot de passe";
+"Change your password" = "Modifier votre mot de passe";
+"a tiny one" = "une latter minuscule";
+"A capital lattrum" = "Une lattre majuscule";
+"A special number or carectere" = "une chiffre ou un carectere special";
+"8 characters minimum" = "8 caracteres minimum";
+"Recover your password" = "Recuperer votre mot de passe";
+"An email will be sent to you to reset your password" = "Un email vous sera envoye pour reinitialiser votre mot de passe";

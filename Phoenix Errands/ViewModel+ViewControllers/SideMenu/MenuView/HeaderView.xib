@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HeaderView" customModule="Phoenix_Errands" customModuleProvider="target">
+            <connections>
+                <outlet property="btnNotrificationIconOutlet" destination="RV3-du-lga" id="cLi-vM-Hbl"/>
+                <outlet property="centerConstraintOutlet" destination="cqf-2F-eEK" id="0mG-Y4-Ieo"/>
+                <outlet property="headerContentView" destination="iN0-l3-epB" id="Bly-eQ-Hr2"/>
+                <outlet property="imgProfileIcon" destination="1Va-Yx-D1p" id="fYB-rj-Isk"/>
+                <outlet property="imgViewMenu" destination="Vbb-sG-183" id="8Hj-rh-MRe"/>
+                <outlet property="lblHeaderTitle" destination="QQh-Ow-Bth" id="8M0-YB-g6e"/>
+                <outlet property="lblNotificationCount" destination="zXN-QC-dEh" id="OKT-Dw-29E"/>
+                <outlet property="menuButtonOutlet" destination="rQo-vb-Cul" id="NjE-kY-jeK"/>
+                <outlet property="notificationValueView" destination="GIx-yh-CTl" id="Rkd-U8-Has"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="117"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HeaderImage" translatesAutoresizingMaskIntoConstraints="NO" id="08d-Np-xEA">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="117"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rQo-vb-Cul">
+                    <rect key="frame" x="12" y="71" width="35" height="35"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="Gt2-Ke-sF5"/>
+                        <constraint firstAttribute="width" constant="35" id="IhU-hX-4ih"/>
+                    </constraints>
+                    <connections>
+                        <action selector="sideMenuButtonAction:" destination="-1" eventType="touchUpInside" id="87W-md-lU0"/>
+                    </connections>
+                </button>
+                <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" translatesAutoresizingMaskIntoConstraints="NO" id="Vbb-sG-183">
+                    <rect key="frame" x="23.5" y="79" width="11" height="19"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="19" id="aTX-Ie-dCJ"/>
+                        <constraint firstAttribute="width" constant="11" id="rIm-dj-VXF"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QQh-Ow-Bth">
+                    <rect key="frame" x="55" y="88.5" width="265" height="0.0"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="notificationIcon" translatesAutoresizingMaskIntoConstraints="NO" id="1Va-Yx-D1p">
+                    <rect key="frame" x="326" y="78.5" width="17" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="17" id="8ir-cZ-2d1"/>
+                        <constraint firstAttribute="height" constant="20" id="R63-WI-5Ks"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GIx-yh-CTl" customClass="RoundUIView" customModule="Phoenix_Errands" customModuleProvider="target">
+                    <rect key="frame" x="347" y="64" width="13" height="25"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zXN-QC-dEh">
+                            <rect key="frame" x="2.5" y="7.5" width="8" height="10"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="10" id="WVR-YS-R9s"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="12"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.98936599493026733" green="0.40948116779327393" blue="0.40732896327972412" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="zXN-QC-dEh" firstAttribute="leading" secondItem="GIx-yh-CTl" secondAttribute="leading" constant="2.5" id="E3M-t1-0Ju"/>
+                        <constraint firstAttribute="bottom" secondItem="zXN-QC-dEh" secondAttribute="bottom" constant="7.5" id="V8G-NQ-9JN"/>
+                        <constraint firstItem="zXN-QC-dEh" firstAttribute="top" secondItem="GIx-yh-CTl" secondAttribute="top" constant="7.5" id="gvP-GT-dyc"/>
+                        <constraint firstAttribute="trailing" secondItem="zXN-QC-dEh" secondAttribute="trailing" constant="2.5" id="n1n-oL-aC5"/>
+                        <constraint firstAttribute="height" constant="25" id="q7g-Qb-QhL"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="12.5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RV3-du-lga">
+                    <rect key="frame" x="294" y="66.5" width="81" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="81" id="hqQ-ER-TuI"/>
+                        <constraint firstAttribute="height" constant="44" id="lCu-mn-m4w"/>
+                    </constraints>
+                    <connections>
+                        <action selector="profileButtonAction:" destination="-1" eventType="touchUpInside" id="cG0-Ur-vq9"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="QQh-Ow-Bth" firstAttribute="centerY" secondItem="rQo-vb-Cul" secondAttribute="centerY" id="0St-V4-nDW"/>
+                <constraint firstItem="RV3-du-lga" firstAttribute="centerY" secondItem="rQo-vb-Cul" secondAttribute="centerY" id="13J-Nf-Avg"/>
+                <constraint firstItem="rQo-vb-Cul" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="12" id="2ry-60-0dq"/>
+                <constraint firstAttribute="trailing" secondItem="08d-Np-xEA" secondAttribute="trailing" id="3wh-C9-s6N"/>
+                <constraint firstItem="08d-Np-xEA" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="5Sh-Ru-1Za"/>
+                <constraint firstItem="08d-Np-xEA" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="AXe-z2-eqa"/>
+                <constraint firstItem="rQo-vb-Cul" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="12" id="No2-Jn-DSF"/>
+                <constraint firstAttribute="trailing" secondItem="GIx-yh-CTl" secondAttribute="trailing" constant="15" id="PBv-ea-Hda"/>
+                <constraint firstItem="Vbb-sG-183" firstAttribute="centerX" secondItem="rQo-vb-Cul" secondAttribute="centerX" constant="-0.5" id="QpU-jG-TwU"/>
+                <constraint firstItem="QQh-Ow-Bth" firstAttribute="leading" secondItem="rQo-vb-Cul" secondAttribute="trailing" constant="8" id="Vh9-Fn-DeY"/>
+                <constraint firstItem="Vbb-sG-183" firstAttribute="centerY" secondItem="rQo-vb-Cul" secondAttribute="centerY" id="WvJ-yR-1Ik"/>
+                <constraint firstItem="QQh-Ow-Bth" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="aDX-fw-T4w"/>
+                <constraint firstItem="rQo-vb-Cul" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" constant="30" id="cqf-2F-eEK"/>
+                <constraint firstItem="GIx-yh-CTl" firstAttribute="centerY" secondItem="1Va-Yx-D1p" secondAttribute="centerY" constant="-12" id="gz2-S1-0EV"/>
+                <constraint firstItem="1Va-Yx-D1p" firstAttribute="centerY" secondItem="RV3-du-lga" secondAttribute="centerY" id="hxc-tD-HRA"/>
+                <constraint firstItem="RV3-du-lga" firstAttribute="trailing" secondItem="iN0-l3-epB" secondAttribute="trailing" id="nIT-JP-FNh"/>
+                <constraint firstItem="1Va-Yx-D1p" firstAttribute="centerX" secondItem="RV3-du-lga" secondAttribute="centerX" id="oDX-70-Y0N"/>
+                <constraint firstAttribute="bottom" secondItem="08d-Np-xEA" secondAttribute="bottom" id="ozw-Rh-GEA"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-162.40000000000001" y="47.226386806596707"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="HeaderImage" width="375.5" height="83.5"/>
+        <image name="back" width="22" height="22"/>
+        <image name="notificationIcon" width="17" height="20"/>
+    </resources>
+</document>

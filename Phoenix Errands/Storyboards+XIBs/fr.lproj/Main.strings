@@ -1,0 +1,69 @@
+
+/* Class = "UILabel"; text = "Log In"; ObjectID = "1fy-tc-xiv"; */
+"1fy-tc-xiv.text" = "Log In";
+
+/* Class = "UIButton"; normalTitle = "Registration with an email"; ObjectID = "24P-zA-u47"; */
+"24P-zA-u47.normalTitle" = "Registration with an email";
+
+/* Class = "UIButton"; normalTitle = "Create an account"; ObjectID = "4C1-L3-VUT"; */
+"4C1-L3-VUT.normalTitle" = "Create an account";
+
+/* Class = "UILabel"; text = "Create an account"; ObjectID = "C1v-pV-qj5"; */
+"C1v-pV-qj5.text" = "Create an account";
+
+/* Class = "UILabel"; text = "Sign In"; ObjectID = "CYd-kz-YU8"; */
+"CYd-kz-YU8.text" = "Sign In";
+
+/* Class = "UILabel"; text = "Or"; ObjectID = "EZ7-NE-F8N"; */
+"EZ7-NE-F8N.text" = "Or";
+
+/* Class = "UILabel"; text = "log in"; ObjectID = "KzN-NI-Ud9"; */
+"KzN-NI-Ud9.text" = "log in";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "MGx-WL-dlP"; */
+"MGx-WL-dlP.placeholder" = "Email";
+
+/* Class = "UILabel"; text = "Already registered?"; ObjectID = "PxM-hV-6GE"; */
+"PxM-hV-6GE.text" = "Already registered?";
+
+/* Class = "UILabel"; text = "Sign In"; ObjectID = "WMT-hf-sj0"; */
+"WMT-hf-sj0.text" = "Sign In";
+
+/* Class = "UILabel"; text = "Create an account"; ObjectID = "Yrk-Ai-pEL"; */
+"Yrk-Ai-pEL.text" = "Create an account";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "env-8A-coj"; */
+"env-8A-coj.placeholder" = "Email";
+
+/* Class = "UIButton"; normalTitle = "Log in"; ObjectID = "hx6-4O-tnt"; */
+"hx6-4O-tnt.normalTitle" = "Log in";
+
+/* Class = "UILabel"; text = "Sign In"; ObjectID = "iWx-ms-SQQ"; */
+"iWx-ms-SQQ.text" = "Sign In";
+
+/* Class = "UIButton"; normalTitle = "Skip"; ObjectID = "jMk-MT-rHC"; */
+"jMk-MT-rHC.normalTitle" = "Skip";
+
+/* Class = "UILabel"; text = "Sign In"; ObjectID = "lqn-rd-oqX"; */
+"lqn-rd-oqX.text" = "Sign In";
+
+/* Class = "UILabel"; text = "Or"; ObjectID = "mhW-MH-9x7"; */
+"mhW-MH-9x7.text" = "Or";
+
+/* Class = "UILabel"; text = "Sign In"; ObjectID = "n3Y-lW-Y2q"; */
+"n3Y-lW-Y2q.text" = "Sign In";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "nBo-gv-PWQ"; */
+"nBo-gv-PWQ.placeholder" = "Password";
+
+/* Class = "UILabel"; text = "Register or log in to discover the services offered "; ObjectID = "oT0-oK-DX9"; */
+"oT0-oK-DX9.text" = "Register or log in to discover the services offered ";
+
+/* Class = "UILabel"; text = "Or"; ObjectID = "swB-wG-xax"; */
+"swB-wG-xax.text" = "Or";
+
+/* Class = "UIButton"; normalTitle = "Forgot your password?"; ObjectID = "uaZ-WT-cx4"; */
+"uaZ-WT-cx4.normalTitle" = "Forgot your password?";
+
+/* Class = "UILabel"; text = "Sign In"; ObjectID = "vuM-8j-bQX"; */
+"vuM-8j-bQX.text" = "Sign In";

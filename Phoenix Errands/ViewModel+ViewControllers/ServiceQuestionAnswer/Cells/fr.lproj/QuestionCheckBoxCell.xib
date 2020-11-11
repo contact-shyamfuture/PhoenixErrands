@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="QuestionCheckBoxCell" rowHeight="63" id="KGk-i7-Jjw" customClass="QuestionCheckBoxCell" customModule="Phoenix_Errands" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="384" height="63"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="384" height="63"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="ye6-9n-MYz">
+                        <rect key="frame" x="0.0" y="0.0" width="384" height="63"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0hR-Jb-vFM">
+                                <rect key="frame" x="20" y="22.5" width="320" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" priority="250" constant="21" id="AxM-zp-Pdy"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="checkBox" translatesAutoresizingMaskIntoConstraints="NO" id="rqA-wC-emx">
+                                <rect key="frame" x="348" y="19" width="25" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="VTZ-ud-Fc0"/>
+                                    <constraint firstAttribute="width" constant="25" id="gbX-a7-qjr"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SmallSep" translatesAutoresizingMaskIntoConstraints="NO" id="zxY-ES-HwU">
+                                <rect key="frame" x="20" y="62" width="353" height="1"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="pCv-aa-XGV"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="0hR-Jb-vFM" firstAttribute="centerY" secondItem="ye6-9n-MYz" secondAttribute="centerY" id="0ur-6z-xLg"/>
+                            <constraint firstAttribute="bottom" secondItem="zxY-ES-HwU" secondAttribute="bottom" id="6jp-ss-frZ"/>
+                            <constraint firstAttribute="trailing" secondItem="rqA-wC-emx" secondAttribute="trailing" constant="11" id="Ix1-3Z-x9g"/>
+                            <constraint firstItem="zxY-ES-HwU" firstAttribute="trailing" secondItem="rqA-wC-emx" secondAttribute="trailing" id="M8K-k2-fEJ"/>
+                            <constraint firstItem="rqA-wC-emx" firstAttribute="leading" secondItem="0hR-Jb-vFM" secondAttribute="trailing" constant="8" id="hci-rh-fOf"/>
+                            <constraint firstItem="0hR-Jb-vFM" firstAttribute="leading" secondItem="ye6-9n-MYz" secondAttribute="leading" constant="20" id="usF-Vj-th9"/>
+                            <constraint firstItem="rqA-wC-emx" firstAttribute="centerY" secondItem="ye6-9n-MYz" secondAttribute="centerY" id="x8X-1u-PGm"/>
+                            <constraint firstItem="zxY-ES-HwU" firstAttribute="leading" secondItem="0hR-Jb-vFM" secondAttribute="leading" id="z6U-O1-BD5"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="ye6-9n-MYz" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="BnJ-W8-kTO"/>
+                    <constraint firstAttribute="trailing" secondItem="ye6-9n-MYz" secondAttribute="trailing" id="fyV-fX-aFW"/>
+                    <constraint firstAttribute="bottom" secondItem="ye6-9n-MYz" secondAttribute="bottom" id="lCa-2S-ln6"/>
+                    <constraint firstItem="ye6-9n-MYz" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="z4j-St-r4V"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="imgCheckBox" destination="rqA-wC-emx" id="hLK-Iw-cF8"/>
+                <outlet property="lblQuestionName" destination="0hR-Jb-vFM" id="Evk-Jh-MsS"/>
+            </connections>
+            <point key="canvasLocation" x="136" y="147.97601199400302"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="SmallSep" width="134" height="1"/>
+        <image name="checkBox" width="20" height="19"/>
+    </resources>
+</document>

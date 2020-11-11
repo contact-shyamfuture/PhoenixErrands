@@ -1,0 +1,15 @@
+
+/* Class = "UIButton"; normalTitle = "Ask for a service"; ObjectID = "A3d-rr-nCV"; */
+"A3d-rr-nCV.normalTitle" = "Ask for a service";
+
+/* Class = "UIButton"; normalTitle = "Peoposer my service"; ObjectID = "Brb-KK-TAe"; */
+"Brb-KK-TAe.normalTitle" = "Peoposer my service";
+
+/* Class = "UILabel"; text = "You published requests and those where you applied will appear here"; ObjectID = "asw-lW-aeK"; */
+"asw-lW-aeK.text" = "You published requests and those where you applied will appear here";
+
+/* Class = "UISegmentedControl"; xRR-Xf-TpR.segmentTitles[0] = "In progress"; ObjectID = "xRR-Xf-TpR"; */
+"xRR-Xf-TpR.segmentTitles[0]" = "In progress";
+
+/* Class = "UISegmentedControl"; xRR-Xf-TpR.segmentTitles[1] = "Reservc"; ObjectID = "xRR-Xf-TpR"; */
+"xRR-Xf-TpR.segmentTitles[1]" = "Reservc";

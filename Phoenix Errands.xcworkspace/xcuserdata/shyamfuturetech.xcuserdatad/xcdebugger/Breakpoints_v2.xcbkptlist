@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "858C1EF9-F054-4F49-9BFD-651963184EC2"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A6936C6B-A748-465E-9E39-88F3B2C58175"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Phoenix Errands/ViewModel+ViewControllers/Profile/ServiceDetails/ServiceDetailsVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C725F0E1-31F8-4F14-8F3A-76E7511D1CFA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Phoenix Errands/ViewModel+ViewControllers/Profile/ServiceDetails/ServiceDetailsVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "101"
+            endingLineNumber = "101"
+            landmarkName = "getServiceDetails()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C10B0103-4DF7-4FB1-B7CA-5F642FB66E37"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Phoenix Errands/ViewModel+ViewControllers/Thankyou/ThankYouVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "ThankYouVC"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "C10B0103-4DF7-4FB1-B7CA-5F642FB66E37 - 3fb90160f4bfcb6b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Phoenix_Errands.ThankYouVC.isprovider.getter : Swift.Optional&lt;Swift.Bool&gt;"
+                  moduleName = "Phoenix Errands"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shyamfuturetech/Desktop/SamirAllDetails/Phoenix%20Errands/Code/GitClone/Updated/Phonex%203/Phoenix%20Errands/ViewModel+ViewControllers/Thankyou/ThankYouVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "107">
+               </Location>
+               <Location
+                  uuid = "C10B0103-4DF7-4FB1-B7CA-5F642FB66E37 - eb6f513e02399b1f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Phoenix_Errands.ThankYouVC.isprovider.setter : Swift.Optional&lt;Swift.Bool&gt;"
+                  moduleName = "Phoenix Errands"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shyamfuturetech/Desktop/SamirAllDetails/Phoenix%20Errands/Code/GitClone/Updated/Phonex%203/Phoenix%20Errands/ViewModel+ViewControllers/Thankyou/ThankYouVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "120">
+               </Location>
+               <Location
+                  uuid = "C10B0103-4DF7-4FB1-B7CA-5F642FB66E37 - f292a1a8088a6f6e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Phoenix_Errands.ThankYouVC.isprovider.modify : Swift.Optional&lt;Swift.Bool&gt;"
+                  moduleName = "Phoenix Errands"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shyamfuturetech/Desktop/SamirAllDetails/Phoenix%20Errands/Code/GitClone/Updated/Phonex%203/Phoenix%20Errands/ViewModel+ViewControllers/Thankyou/ThankYouVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  uuid = "C10B0103-4DF7-4FB1-B7CA-5F642FB66E37 - 316775e6ad21a754"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Phoenix_Errands.ThankYouVC.isprovider.modify : Swift.Optional&lt;Swift.Bool&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Phoenix Errands"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shyamfuturetech/Desktop/SamirAllDetails/Phoenix%20Errands/Code/GitClone/Updated/Phonex%203/Phoenix%20Errands/ViewModel+ViewControllers/Thankyou/ThankYouVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "C10B0103-4DF7-4FB1-B7CA-5F642FB66E37 - c7c7c806b1cb5fdd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Phoenix_Errands.ThankYouVC.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Phoenix_Errands.ThankYouVC"
+                  moduleName = "Phoenix Errands"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shyamfuturetech/Desktop/SamirAllDetails/Phoenix%20Errands/Code/GitClone/Updated/Phonex%203/Phoenix%20Errands/ViewModel+ViewControllers/Thankyou/ThankYouVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "474">
+               </Location>
+               <Location
+                  uuid = "C10B0103-4DF7-4FB1-B7CA-5F642FB66E37 - 280fd29ce5e3d72c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Phoenix_Errands.ThankYouVC.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Phoenix_Errands.ThankYouVC&gt;"
+                  moduleName = "Phoenix Errands"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shyamfuturetech/Desktop/SamirAllDetails/Phoenix%20Errands/Code/GitClone/Updated/Phonex%203/Phoenix%20Errands/ViewModel+ViewControllers/Thankyou/ThankYouVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "412">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9804D636-5AF5-449E-B2D6-C7B78930ECC3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Phoenix Errands/ViewModel+ViewControllers/Thankyou/ThankYouVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "513CEAF4-62D7-4D3D-87E9-08746F189EBC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Phoenix Errands/Others/APIClient/APIService/ServiceListService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "getServiceListDetails(lang:subCategoryID:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D7AC8FD0-2093-47F3-9C35-BC899A9188E8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Phoenix Errands/Others/APIClient/APIService/ServiceListService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "getServiceListDetails(lang:subCategoryID:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "86F01A9C-2831-45A1-BDC9-88B3A2EF93BE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Phoenix Errands/ViewModel+ViewControllers/Profile/EditProfile/EditProfileVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "185"
+            endingLineNumber = "185"
+            landmarkName = "didFinishEnteringPin(pin:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4D2EEF8B-9357-4701-BEA6-C7ACA593E658"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Phoenix Errands/ViewModel+ViewControllers/Profile/EditProfile/EditProfileVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "181"
+            endingLineNumber = "181"
+            landmarkName = "didFinishEnteringPin(pin:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E675E5CF-5FD4-43F4-840A-5235F4E2D4DF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Phoenix Errands/ViewModel+ViewControllers/Profile/EditProfile/EditProfileVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "372"
+            endingLineNumber = "372"
+            landmarkName = "requestWith(endUrl:imageData:parameters:onCompletion:onError:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E675E5CF-5FD4-43F4-840A-5235F4E2D4DF - 434440815cbffcc0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "default argument 3 of Phoenix_Errands.EditProfileVC.requestWith(endUrl: Swift.String, imageData: Swift.Optional&lt;Foundation.Data&gt;, parameters: Swift.Dictionary&lt;Swift.String, Any&gt;, onCompletion: Swift.Optional&lt;(Swift.Optional&lt;Any&gt;) -&gt; ()&gt;, onError: Swift.Optional&lt;(Swift.Optional&lt;Swift.Error&gt;) -&gt; ()&gt;) -&gt; ()"
+                  moduleName = "Phoenix Errands"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shyamfuturetech/Desktop/SamirAllDetails/Phoenix%20Errands/Code/GitClone/Updated/Phonex%203/Phoenix%20Errands/ViewModel+ViewControllers/Profile/EditProfile/EditProfileVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "372"
+                  endingLineNumber = "372"
+                  offsetFromSymbolStart = "8">
+               </Location>
+               <Location
+                  uuid = "E675E5CF-5FD4-43F4-840A-5235F4E2D4DF - 3ed82b0a80f8aec1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "default argument 4 of Phoenix_Errands.EditProfileVC.requestWith(endUrl: Swift.String, imageData: Swift.Optional&lt;Foundation.Data&gt;, parameters: Swift.Dictionary&lt;Swift.String, Any&gt;, onCompletion: Swift.Optional&lt;(Swift.Optional&lt;Any&gt;) -&gt; ()&gt;, onError: Swift.Optional&lt;(Swift.Optional&lt;Swift.Error&gt;) -&gt; ()&gt;) -&gt; ()"
+                  moduleName = "Phoenix Errands"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shyamfuturetech/Desktop/SamirAllDetails/Phoenix%20Errands/Code/GitClone/Updated/Phonex%203/Phoenix%20Errands/ViewModel+ViewControllers/Profile/EditProfile/EditProfileVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "372"
+                  endingLineNumber = "372"
+                  offsetFromSymbolStart = "8">
+               </Location>
+               <Location
+                  uuid = "E675E5CF-5FD4-43F4-840A-5235F4E2D4DF - f460752294ea7354"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Phoenix_Errands.EditProfileVC.requestWith(endUrl: Swift.String, imageData: Swift.Optional&lt;Foundation.Data&gt;, parameters: Swift.Dictionary&lt;Swift.String, Any&gt;, onCompletion: Swift.Optional&lt;(Swift.Optional&lt;Any&gt;) -&gt; ()&gt;, onError: Swift.Optional&lt;(Swift.Optional&lt;Swift.Error&gt;) -&gt; ()&gt;) -&gt; ()"
+                  moduleName = "Phoenix Errands"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shyamfuturetech/Desktop/SamirAllDetails/Phoenix%20Errands/Code/GitClone/Updated/Phonex%203/Phoenix%20Errands/ViewModel+ViewControllers/Profile/EditProfile/EditProfileVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "373"
+                  endingLineNumber = "373"
+                  offsetFromSymbolStart = "404">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A88558AE-709E-4EEB-8E91-DDC88C09008E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Phoenix Errands/ViewModel+ViewControllers/Profile/EditProfile/EditProfileVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "397"
+            endingLineNumber = "397"
+            landmarkName = "requestWith(endUrl:imageData:parameters:onCompletion:onError:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "718B8D9C-B152-41F6-9CA9-090E7A976E7E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Phoenix Errands/ViewModel+ViewControllers/Profile/EditProfile/EditProfileVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "401"
+            endingLineNumber = "401"
+            landmarkName = "requestWith(endUrl:imageData:parameters:onCompletion:onError:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

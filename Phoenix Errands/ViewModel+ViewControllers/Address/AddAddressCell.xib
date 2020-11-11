@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="AddAddressCell" rowHeight="92" id="KGk-i7-Jjw" customClass="AddAddressCell" customModule="Phoenix_Errands" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="459" height="92"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="459" height="92"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="azC-35-S19">
+                        <rect key="frame" x="20" y="11" width="419" height="70.5"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zzj-Of-Fgr">
+                                <rect key="frame" x="5" y="5" width="409" height="60.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderLabel.textColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="zzj-Of-Fgr" secondAttribute="bottom" constant="5" id="04w-xZ-Nng"/>
+                            <constraint firstItem="zzj-Of-Fgr" firstAttribute="leading" secondItem="azC-35-S19" secondAttribute="leading" constant="5" id="CcI-Cm-2v3"/>
+                            <constraint firstAttribute="trailing" secondItem="zzj-Of-Fgr" secondAttribute="trailing" constant="5" id="R7x-7c-y0F"/>
+                            <constraint firstItem="zzj-Of-Fgr" firstAttribute="top" secondItem="azC-35-S19" secondAttribute="top" constant="5" id="lfB-o4-GJd"/>
+                        </constraints>
+                    </view>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Fuf-g0-X1l">
+                        <rect key="frame" x="20" y="91.5" width="419" height="0.5"/>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="0.5" id="xzA-KR-00k"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="Fuf-g0-X1l" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="4x8-dM-wS8"/>
+                    <constraint firstAttribute="bottom" secondItem="Fuf-g0-X1l" secondAttribute="bottom" id="Iae-Wt-6KS"/>
+                    <constraint firstItem="azC-35-S19" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="TgZ-Zf-35Y"/>
+                    <constraint firstAttribute="bottom" secondItem="azC-35-S19" secondAttribute="bottom" constant="10.5" id="Xmw-Fa-ixl"/>
+                    <constraint firstAttribute="trailing" secondItem="Fuf-g0-X1l" secondAttribute="trailing" constant="20" id="dft-v4-8Bq"/>
+                    <constraint firstItem="azC-35-S19" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="11" id="dsW-Cd-8ol"/>
+                    <constraint firstAttribute="trailing" secondItem="azC-35-S19" secondAttribute="trailing" constant="20" id="rgO-13-r0D"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="txtField" destination="zzj-Of-Fgr" id="VRJ-Ov-PRQ"/>
+            </connections>
+            <point key="canvasLocation" x="304.80000000000001" y="106.14692653673164"/>
+        </tableViewCell>
+    </objects>
+</document>

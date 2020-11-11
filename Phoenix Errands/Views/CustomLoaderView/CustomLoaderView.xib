@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="Ccn-i0-D56" customClass="CustomLoaderView" customModule="LastingVideoMemories" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZSL-BQ-r10">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Gtc-GH-DTC">
+                    <rect key="frame" x="152.5" y="308.5" width="70" height="70"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="70" id="anN-kf-5re"/>
+                        <constraint firstAttribute="height" constant="70" id="geC-Ds-Xuc"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="Gtc-GH-DTC" firstAttribute="centerX" secondItem="eqc-Fh-dZA" secondAttribute="centerX" id="BQJ-eF-cNb"/>
+                <constraint firstItem="Gtc-GH-DTC" firstAttribute="centerY" secondItem="eqc-Fh-dZA" secondAttribute="centerY" id="ZEl-hv-AbM"/>
+                <constraint firstItem="ZSL-BQ-r10" firstAttribute="leading" secondItem="eqc-Fh-dZA" secondAttribute="leading" id="ahi-5K-9NW"/>
+                <constraint firstItem="ZSL-BQ-r10" firstAttribute="trailing" secondItem="eqc-Fh-dZA" secondAttribute="trailing" id="le4-du-BbX"/>
+                <constraint firstItem="ZSL-BQ-r10" firstAttribute="top" secondItem="Ccn-i0-D56" secondAttribute="top" id="nTJ-aL-iMg"/>
+                <constraint firstItem="ZSL-BQ-r10" firstAttribute="bottom" secondItem="eqc-Fh-dZA" secondAttribute="bottom" id="qw5-Sd-WgM"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="eqc-Fh-dZA"/>
+            <connections>
+                <outlet property="imageView" destination="Gtc-GH-DTC" id="ajc-Eh-hgL"/>
+            </connections>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,85 @@
+/* 
+  Localizable.strings
+  Phoenix Errands
+
+  Created by Raghav Beriwala on 19/08/19.
+  Copyright © 2019 Shyam Future Tech. All rights reserved.
+*/
+
+"Create an account" = "Create an account";
+"You want to delete?" = "Vous souhaitez supprimer?";
+"Registration with an email" = "Registration with an email";
+"Register or log in to discover the services offered" = "Register or log in to discover the services offered";
+"First name" = "First name";
+"Name" = "Name";
+"Email" = "Email";
+"Password" = "Password";
+"Log in" = "Log in";
+"Forgot your password" = "Forgot your password";
+"House" = "House";
+"Garden & Outside" = "Garden & Outside";
+"Home help" = "Home help";
+"Transport & Moving" = "Transport & Moving";
+"Body care" = "Body care";
+"Repair of Vehicles" = "Repair of Vehicles";
+"Courses & Tips" = "Courses & Tips";
+"Contacts" = "Contacts";
+"Home" = "Home";
+"Activity" = "Activity";
+"Apply" = "Apply";
+"Me" = "Me";
+
+"Language" = "Language";
+"New" = "New";
+"Varifications" = "Varifications";
+"Status" = "Status";
+"Particular" = "Particular";
+"My activity" = "My activity";
+"Missions carried out" = "Missions carried out";
+"Services provided" = "Services provided";
+"Sold items" = "Sold items";
+"My statistics" = "My statistics";
+"Response time" = "Response time";
+"My profile" = "My profile";
+"Add my services" = "Add my services";
+//Varifications
+
+"Choose Your Service" = "Choose Your Service";
+"Try" = "Try";
+"My skills" = "My skills";
+"Complete your information to apply for mission" = "Complete your information to apply for mission";
+"You published requests and those where you applied will appear here" = "You published requests and those where you applied will appear here";
+"Ask for a service" = "Ask for a service";
+"Peoposer my service" = "Peoposer my service";
+"Phoenix of the moment" = "Phoenix of the moment";
+"Discover" = "Discover";
+"You do not have any contacts yet. In the meantime, find out the current stooters." = "You do not have any contacts yet. In the meantime, find out the current stooters.";
+
+"You do not have a payment method" = "You do not have a payment method";
+"Means of payment" = "Means of payment";
+"You can add a map to book a provider faster" = "You can add a map to book a provider faster";
+"Add a map" = "Add a map";
+
+//---------
+
+"Help & Assistance" = "Help & Assistance";
+"chat with Phoenix" = "chat with Phoenix";
+"Send an email to Phoenix" = "Send an email to Phoenix";
+"Access the FAQ" = "Access the FAQ";
+"Cancel" = "Cancel";
+"settings" = "settings";
+"My account" = "My account";
+"change my password" = "change my password";
+"Disconnect" = "Disconnect";
+"Delete my account" = "Delete my account";
+"Current Password" = "Current Password";
+"New Password" = "Nouveau mot de passe";
+"Change your password" = "Change your password";
+"a tiny one" = "a tiny one";
+"A capital lattrum" = "A capital lattrum";
+"A special number or carectere" = "A special number or carectere";
+"8 characters minimum" = "8 characters minimum";
+"Recover your password" = "Recover your password";
+"An email will be sent to you to reset your password" = "An email will be sent to you to reset your password";
+
+
